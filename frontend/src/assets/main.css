@@ -11,3 +11,9 @@ transition: all 1s ease-out;
 opacity: 1;
 transform: translateY(0px);
 }
+#profil {
+  background-image: url("backgrounawal.jpg");
+  background-size: cover;
+  height: 50dvh;
+  width: 1000dvb;
+}
