@@ -1,5 +1,5 @@
 <script setup>
-import Navbar from '@/components/Navbar.vue';
+import Navbar from '@/components/navbar.vue';
 import Hero from '@/components/Hero.vue';
 import Education from '@/components/Education.vue';
 import Skills from '@/components/Skills.vue';
