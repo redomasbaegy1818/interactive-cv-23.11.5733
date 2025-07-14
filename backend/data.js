@@ -1,6 +1,8 @@
 const educationHistory = [
     { id: 1, period: '2023 - Sekarang', institution: 'Universitas Amikom Yogyakarta', major: 'S1 - Teknik Informatika' },
-    { id: 2, period: '2020 - 2023', institution: 'SMK Muhammadiyah 1 Yogyakarta', major: 'MULTIMEDIA' }
+    { id: 2, period: '2020 - 2023', institution: 'SMK Muhammadiyah 1 Yogyakarta', major: 'MULTIMEDIA' },
+    { id: 3, period: '2018 - 2020', institution: 'SMP Muhammadiyah 7 Yogyakarta', major: 'TIK' },
+    { id: 4, period: '2012 - 2018', institution: 'SD Muhammadiyah Sapen Yogyakarta', major: '-' },
   ];
   
   const skills = [
@@ -9,23 +11,22 @@ const educationHistory = [
     { name: 'Tailwind CSS', level: 'Mahir' },
     { name: 'Node.js', level: 'Menengah' },
     { name: 'Express.js', level: 'Menengah' },
-    { name: 'PostgreSQL', level: 'Menengah' },
     { name: 'Git & GitHub', level: 'Mahir' },
     { name: 'HTML5 & CSS3', level: 'Mahir' }
   ];
   
   const projects = [
     {
-      title: 'Website Toko Online',
-      image: 'https://via.placeholder.com/500x300?text=Proyek+1',
-      description: 'Platform e-commerce dengan fitur keranjang belanja.',
+      title: 'Seminar Pengantar Pemrograman Web',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.dhlgZsYhDRYhEMTVa9iopAHaFM?pid=Api&P=0&h=180',
+      description: 'Seminar Pengantar Pemrograman Web Di Desa.',
       tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
       link: '#'
     },
     {
-      title: 'Aplikasi Manajemen Tugas',
-      image: 'https://via.placeholder.com/500x300?text=Proyek+2',
-      description: 'Aplikasi untuk melacak progres tugas harian.',
+      title: 'Aplikasi Manajemen Es Kimo',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.q1CrXjcaCzHDxi4ZeLin4gAAAA?pid=Api&P=0&h=180',
+      description: 'Aplikasi untuk manajemen penjualan es kimo.',
       tech: ['React', 'Firebase'],
       link: '#'
     }
